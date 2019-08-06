@@ -1,0 +1,11 @@
+[{
+		"customerName": "John",
+		"wallet": 1000,
+		"bikes": ["9"]
+	},
+	{
+		"customerName": "Will",
+		"wallet": 300,
+		"bikes": ["4", "6"]
+	}
+]
