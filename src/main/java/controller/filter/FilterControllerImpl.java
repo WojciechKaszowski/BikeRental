@@ -12,6 +12,11 @@ import java.util.stream.Collectors;
 
 public class FilterControllerImpl implements FilterController {
 
+    /**
+     * FilterController is a class allowing to filter list of bikes by value from the user,
+     * it uses 4 comparators located in comparators package to do that.
+     */
+
     private List<Bike> listOfBikesAfterFilter;
 
     public FilterControllerImpl(BikeRepository bikeRepository) {

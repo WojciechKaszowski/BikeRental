@@ -11,6 +11,10 @@ import java.util.List;
 
 public class ReservationControllerImpl implements ReservationController {
 
+    /**
+     * Reservation part of application. It allows to book and return bikes.
+     */
+
     private BikeRepository bikeRepository;
     private List<Bike> listOfReservedBikes;
 

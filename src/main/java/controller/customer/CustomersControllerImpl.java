@@ -6,6 +6,10 @@ import model.customer.CustomerRepository;
 import java.util.List;
 
 public class CustomersControllerImpl  implements CustomersController{
+    /**
+     * Class contains logic that allows operations on the current user, such as :
+     * Validating by Name, Adding customer, Add money, Take rental price.
+     */
 
     private Customer customer;
 

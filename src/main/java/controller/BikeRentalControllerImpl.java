@@ -22,6 +22,12 @@ import java.util.stream.Collectors;
 
 public class BikeRentalControllerImpl implements BikeRentalController {
 
+    /**
+     * Main part of application. The BikeRentalController communicates with View and allocates tasks
+     * to other controllers.
+     */
+
+
     private RentalCalculationController rentalCalculationController;
     private FilterController filterController;
     private ReservationController reservationController;

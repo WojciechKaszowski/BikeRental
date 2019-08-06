@@ -6,6 +6,11 @@ import java.time.LocalTime;
 
 public class RentalCalculationControllerImpl implements RentalCalculationController{
 
+    /**
+     * This class contains logic for rental calculation.
+     * Converts rental costs according to the conversion rate
+     * (10 sec of rental in program == 1 hour in real)
+     */
 
     @Override
     public double calculateMoneyForReturn(Bike bike) {
