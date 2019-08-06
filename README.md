@@ -11,14 +11,11 @@ This is Bike Rental Service console application
 - Customer wallet (You can add money to the customer wallet)
 - Exit (It is only possible when you have money in your wallet)
 
----------------------------------
-
 ## Addons
 
 The application loads users and bikes from .txt files located in resources folder.
 You can login as a current user (By passing userName from file) and then you will already get some bikes in the list of reserved bikes.
 
----------------------------------
 ## Project built using Maven
 **Used libraries:**
 - Jackson (read customers from file)
